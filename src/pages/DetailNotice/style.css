@@ -1,0 +1,65 @@
+.main-content {
+  max-width: 1200px;
+  width: 89vw;
+  margin: 0 auto;
+}
+.bar-green {
+  padding: 20px 0 0;
+  position: relative;
+}
+.bar-green::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 95px;
+  height: 10px;
+  background-color: #81cb25;
+}
+.title {
+  margin: 20px auto 25px;
+  color: #383939;
+  font-size: 24px;
+  font-weight: 700;
+}
+.main-img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 20px;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.first-p {
+  margin-bottom: 0;
+}
+.main-social_content {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 25px auto;
+}
+.fb-img1 {
+  width: 48%;
+  background: #2d88ff;
+  border-radius: 3px;
+  height: 38px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+.tw-img2 {
+  width: 48%;
+  background: #1da1f2;
+  border-radius: 3px;
+  height: 38px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
